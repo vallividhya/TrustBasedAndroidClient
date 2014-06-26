@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+     <TextView
+	    android:id="@+id/cityTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:text= "Enter city to search"
+        android:textColor="#0099cc"/>
+     
+   <EditText
+        android:id="@+id/searchCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:hint="San Jose" />
+   
+   <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="#d3d3d3"
+        android:onClick="searchLocationsByName"
+        android:text="Search by name" />
+   
+   <TextView
+	    android:id="@+id/cityTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp"
+        android:text= "Search powered by FourSquare"
+        android:textColor="#0099cc"
+        android:textAlignment="viewEnd"/>
+   
+
+</LinearLayout>

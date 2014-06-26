@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Add Friend"
+        android:textColor="#0099cc"
+        android:textSize="26sp" />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+         android:textSize="18sp"
+        android:text="Enter friend's Email address to add your most trusted friend to your trust network"
+        android:textColor="#0099cc" />
+
+    <EditText
+        android:id="@+id/friend_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:ellipsize="end"
+        android:hint="@string/login_email"
+        android:lines="1"
+        android:scrollHorizontally="true" />
+    
+    <Button
+        android:id="@+id/btnInviteFriend" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Invite friend"
+        android:textColor="#0099cc"
+        android:onClick="inviteFriend" />
+
+</LinearLayout>

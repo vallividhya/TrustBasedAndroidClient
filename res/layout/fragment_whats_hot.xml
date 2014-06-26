@@ -1,0 +1,22 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <Button
+        android:id="@+id/BtnWhatsHot"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="#d3d3d3"
+        android:onClick="checkWhatsHot"
+        android:text="Check what's trending" />
+     
+    
+
+</LinearLayout>

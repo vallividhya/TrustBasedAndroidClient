@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_1" type="id"/>
+    <item name="tv_2" type="id"/>
+    <item name="tv_3" type="id"/>
+    <item name="tv_4" type="id"/>
+    <item name="tv_5" type="id"/>
+    <item name="tv_6" type="id"/>
+    <item name="tv_7" type="id"/>
+    <item name="tv_8" type="id"/>
+    <item name="tv_9" type="id"/>
+    <item name="tv_10" type="id"/>
+    <item name="tv_11" type="id"/>
+    <item name="et_1" type="id"/>
+    <item name="et_11" type="id"/>
+    <item name="et_2" type="id"/>
+    <item name="et_3" type="id"/>
+    <item name="et_4" type="id"/>
+    <item name="et_5" type="id"/>
+    <item name="et_6" type="id"/>
+    <item name="et_7" type="id"/>
+    <item name="et_8" type="id"/>
+    <item name="et_9" type="id"/>
+    <item name="et_10" type="id"/>
+</resources>

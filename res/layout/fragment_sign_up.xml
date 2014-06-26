@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/button_signup"
+            android:textSize="26sp"
+            android:textColor="#0099cc"/>
+     
+    <!-- Email -->
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:text="Email"
+        android:textColor="#0099cc" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:lines="1"
+    	android:scrollHorizontally="true"
+    	android:ellipsize="end"
+        android:hint="@string/login_email"
+        android:inputType="textEmailAddress" />
+    
+	<!-- Password -->
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Password"
+        android:textColor="#0099cc" />
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:lines="1"
+    	android:scrollHorizontally="true"
+    	android:ellipsize="end"
+        android:inputType="textPassword"
+        android:textColor="#0099cc" />
+    
+	<!-- Name --> 
+	
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Name"
+        android:textColor="#0099cc" />
+
+    <EditText
+        android:id="@+id/signup_fname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:lines="1"
+    	android:scrollHorizontally="true"
+    	android:ellipsize="end"
+    	android:hint="@string/txt_fname"
+        android:textColor="#0099cc" />
+	
+	
+	
+	<!--  Phone number -->
+	
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:text="City"
+        android:textColor="#0099cc" />
+
+    <EditText
+        android:id="@+id/signup_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:lines="1"
+    	android:scrollHorizontally="true"
+    	android:ellipsize="end"
+    	android:hint="San Jose"
+        android:textColor="#0099cc" />
+	
+   
+     
+     <!-- Zip Code -->
+     
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Zip Code"
+        android:textColor="#0099cc" />
+
+    <EditText
+        android:id="@+id/signup_zip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:lines="1"
+    	android:scrollHorizontally="true"
+    	android:ellipsize="end"
+    	android:textColor="#0099cc" />
+	
+     <Button
+        android:id="@+id/btnRegister" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_signup"
+        android:textColor="#0099cc"
+        android:onClick="signUpUser" />
+</LinearLayout>

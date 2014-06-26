@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.sjsu.trustbasedreco"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.SignInActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.ShowBookmarksFragment"
+            android:label="Bookmarks" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.SignUpActivity"
+            android:label="Sign Up to Entrust" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.LandingActivity"
+            android:label="Entrust - Home" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.BookmarkActivity"
+            android:label="Bookmarks"
+            android:parentActivityName="android.app.ListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.EditBookmarkActivity"
+            android:label="Edit bookmark" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.LandingActivity"
+            android:label="@string/title_activity_landing"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.ViewBookmarksFragment"
+            android:label="@string/title_activity_view_bookmarks_fragment" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.UserProfileFragment"
+            android:label="User Profile" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.TrustNetworkActivity"
+            android:label="Trust Network" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.SearchNearbyFragment"
+            android:label="Search Nearby" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.MenusActivity"
+            android:label="@string/title_activity_menus" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.RecommendationsActivity"
+            android:label="What's trending" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.AddFriendActivity"
+            android:label="Add friend" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.FriendActivity"
+            android:label="Trusted Friend" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.SearchByLocationActivity"
+            android:label="@string/title_activity_search_by_location" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.SearchByNameActivity"
+            android:label="Search Nearby" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.VenueActivity"
+            android:label="Know about this location" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.WhatsHotActivity"
+            android:label="What's Hot" >
+        </activity>
+        <activity
+            android:name="edu.sjsu.trustbasedreco.androidclient.RecoActivity"
+            android:label="Our Recommendation" >
+        </activity>
+    </application>
+
+</manifest>

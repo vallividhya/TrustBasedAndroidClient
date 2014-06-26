@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="We found it near you!"
+        android:textColor="#0099cc"
+        android:textSize="18sp" />
+    
+    <EditText
+        android:id="@+id/venueName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent" 
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+     
+    <EditText
+        android:id="@+id/venueAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent" 
+        android:textSize="16sp" />
+
+     <EditText
+        android:id="@+id/venueCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent" 
+        android:textSize="16sp" />
+     
+    
+    <TextView
+        android:id="@+id/venueCy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:textSize="18sp"
+        android:text="Category:"
+        android:textColor="#0099cc" />
+    
+    <EditText
+        android:id="@+id/venueCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent" 
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/venueStats"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:textSize="18sp"
+        android:text="Popularity:"
+        android:textColor="#0099cc" />
+    
+    <EditText
+        android:id="@+id/venuePopular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent" 
+        android:textSize="16sp" />
+    
+    <Button
+        android:id="@+id/addBookmark" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Add to my bookmarks"
+        android:textColor="#0099cc"
+        android:layout_marginTop="40dp"
+        android:onClick="addBookmark" />
+
+    
+</LinearLayout>

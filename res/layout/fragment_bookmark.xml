@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <EditText
+        android:id="@+id/BName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:text="Category:"
+        android:textColor="#0099cc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/BCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:text="Location"
+        android:textColor="#0099cc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/BLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:text="Did you try this place?"
+        android:textColor="#0099cc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/BTried"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:text="Popularity"
+        android:textColor="#0099cc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/BPopular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:text="How much did you like it? (From 1 to 5)"
+        android:textColor="#0099cc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/BStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textSize="16sp" 
+        android:layout_marginLeft="10dp"/>
+
+    
+    <!-- Edit Bookmark button -->
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="#d3d3d3"
+        android:onClick="editBookmark"
+        android:text="Save Edits" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="#d3d3d3"
+        android:onClick="deleteBookmark"
+        android:text="Delete Bookmark" />
+
+</LinearLayout>
