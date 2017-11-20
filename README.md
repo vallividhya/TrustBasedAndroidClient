@@ -7,13 +7,14 @@
   while friend B could be the best person to talk to get coffee shop recommendations. 
   
  - This Android app "Trust Me" is a client application for the Trust based recommendation service that does the following:
-    [X] Lets user to login using Facebook
-    [X] Get user's friends from Facebook
-    [X] Let the user give a trust score for friends per category
-    [X] Search for users, restaurants, coffee shops (Backed by Yelp API)
-    [X] Allow users to save bookmarks for categories. 
-    [X] Get trust based recommendations from the service (The server also built as part of this project, 
+  * [X]	Lets user to login using Facebook
+  * [X] Get user's friends from Facebook
+  * [X] Let the user give a trust score for friends per category
+  * [X] Search for users, restaurants, coffee shops (Backed by Yelp API)
+  * [X] Allow users to save bookmarks for categories. 
+  * [X] Get trust based recommendations from the service (The server also built as part of this project, 
         resides in the repository: https://github.com/cmeenait/TrustBasedRecommendationServer)
+   
         
 Link to the Project presentation slides:
 
